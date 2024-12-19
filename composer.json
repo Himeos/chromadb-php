@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Codewithkyrian\\ChromaDB\\": "src/"
+      "Himeos\\ChromaDB\\": "src/"
     }
   },
   "authors": [

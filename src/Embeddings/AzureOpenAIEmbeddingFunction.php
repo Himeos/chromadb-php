@@ -1,6 +1,6 @@
 <?php
 
-namespace Codewithkyrian\ChromaDB\Embeddings;
+namespace Himeos\ChromaDB\Embeddings;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\RequestException;

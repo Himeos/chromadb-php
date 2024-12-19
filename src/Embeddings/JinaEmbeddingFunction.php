@@ -3,9 +3,9 @@
 declare(strict_types=1);
 
 
-namespace Codewithkyrian\ChromaDB\Embeddings;
+namespace Himeos\ChromaDB\Embeddings;
 
-use Codewithkyrian\ChromaDB\Embeddings\EmbeddingFunction;
+use Himeos\ChromaDB\Embeddings\EmbeddingFunction;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 use Psr\Http\Client\ClientExceptionInterface;

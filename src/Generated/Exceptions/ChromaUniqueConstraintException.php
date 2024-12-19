@@ -3,9 +3,9 @@
 declare(strict_types=1);
 
 
-namespace Codewithkyrian\ChromaDB\Generated\Exceptions;
+namespace Himeos\ChromaDB\Generated\Exceptions;
 
-use Codewithkyrian\ChromaDB\Generated\Exceptions\ChromaException;
+use Himeos\ChromaDB\Generated\Exceptions\ChromaException;
 
 class ChromaUniqueConstraintException extends ChromaException
 {

@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-namespace Codewithkyrian\ChromaDB\Generated\Models;
+namespace Himeos\ChromaDB\Generated\Models;
 
 class Collection
 {

@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-namespace Codewithkyrian\ChromaDB\Generated\Requests;
+namespace Himeos\ChromaDB\Generated\Requests;
 
 class QueryEmbeddingRequest
 {

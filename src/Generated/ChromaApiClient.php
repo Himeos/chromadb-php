@@ -3,24 +3,24 @@
 declare(strict_types=1);
 
 
-namespace Codewithkyrian\ChromaDB\Generated;
+namespace Himeos\ChromaDB\Generated;
 
-use Codewithkyrian\ChromaDB\Generated\Exceptions\ChromaConnectionException;
-use Codewithkyrian\ChromaDB\Generated\Exceptions\ChromaException;
-use Codewithkyrian\ChromaDB\Generated\Models\Collection;
-use Codewithkyrian\ChromaDB\Generated\Models\Database;
-use Codewithkyrian\ChromaDB\Generated\Models\Tenant;
-use Codewithkyrian\ChromaDB\Generated\Requests\AddEmbeddingRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\CreateCollectionRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\CreateDatabaseRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\CreateTenantRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\DeleteEmbeddingRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\GetEmbeddingRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\QueryEmbeddingRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\UpdateCollectionRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\UpdateEmbeddingRequest;
-use Codewithkyrian\ChromaDB\Generated\Responses\GetItemsResponse;
-use Codewithkyrian\ChromaDB\Generated\Responses\QueryItemsResponse;
+use Himeos\ChromaDB\Generated\Exceptions\ChromaConnectionException;
+use Himeos\ChromaDB\Generated\Exceptions\ChromaException;
+use Himeos\ChromaDB\Generated\Models\Collection;
+use Himeos\ChromaDB\Generated\Models\Database;
+use Himeos\ChromaDB\Generated\Models\Tenant;
+use Himeos\ChromaDB\Generated\Requests\AddEmbeddingRequest;
+use Himeos\ChromaDB\Generated\Requests\CreateCollectionRequest;
+use Himeos\ChromaDB\Generated\Requests\CreateDatabaseRequest;
+use Himeos\ChromaDB\Generated\Requests\CreateTenantRequest;
+use Himeos\ChromaDB\Generated\Requests\DeleteEmbeddingRequest;
+use Himeos\ChromaDB\Generated\Requests\GetEmbeddingRequest;
+use Himeos\ChromaDB\Generated\Requests\QueryEmbeddingRequest;
+use Himeos\ChromaDB\Generated\Requests\UpdateCollectionRequest;
+use Himeos\ChromaDB\Generated\Requests\UpdateEmbeddingRequest;
+use Himeos\ChromaDB\Generated\Responses\GetItemsResponse;
+use Himeos\ChromaDB\Generated\Responses\QueryItemsResponse;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\ConnectException;
 use GuzzleHttp\Exception\RequestException;

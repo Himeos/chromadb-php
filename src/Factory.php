@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Codewithkyrian\ChromaDB;
+namespace Himeos\ChromaDB;
 
-use Codewithkyrian\ChromaDB\Generated\ChromaApiClient;
+use Himeos\ChromaDB\Generated\ChromaApiClient;
 
 class Factory
 {

@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-namespace Codewithkyrian\ChromaDB\Embeddings;
+namespace Himeos\ChromaDB\Embeddings;
 
 use GuzzleHttp\Client;
 

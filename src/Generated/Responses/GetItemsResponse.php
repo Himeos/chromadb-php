@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 
-namespace Codewithkyrian\ChromaDB\Generated\Responses;
+namespace Himeos\ChromaDB\Generated\Responses;
 
 /**
  * Response model for getting items from collection.

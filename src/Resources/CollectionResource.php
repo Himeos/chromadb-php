@@ -3,19 +3,19 @@
 declare(strict_types=1);
 
 
-namespace Codewithkyrian\ChromaDB\Resources;
+namespace Himeos\ChromaDB\Resources;
 
-use Codewithkyrian\ChromaDB\Embeddings\EmbeddingFunction;
-use Codewithkyrian\ChromaDB\Generated\ChromaApiClient;
-use Codewithkyrian\ChromaDB\Generated\Models\Collection;
-use Codewithkyrian\ChromaDB\Generated\Requests\AddEmbeddingRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\DeleteEmbeddingRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\GetEmbeddingRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\QueryEmbeddingRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\UpdateCollectionRequest;
-use Codewithkyrian\ChromaDB\Generated\Requests\UpdateEmbeddingRequest;
-use Codewithkyrian\ChromaDB\Generated\Responses\GetItemsResponse;
-use Codewithkyrian\ChromaDB\Generated\Responses\QueryItemsResponse;
+use Himeos\ChromaDB\Embeddings\EmbeddingFunction;
+use Himeos\ChromaDB\Generated\ChromaApiClient;
+use Himeos\ChromaDB\Generated\Models\Collection;
+use Himeos\ChromaDB\Generated\Requests\AddEmbeddingRequest;
+use Himeos\ChromaDB\Generated\Requests\DeleteEmbeddingRequest;
+use Himeos\ChromaDB\Generated\Requests\GetEmbeddingRequest;
+use Himeos\ChromaDB\Generated\Requests\QueryEmbeddingRequest;
+use Himeos\ChromaDB\Generated\Requests\UpdateCollectionRequest;
+use Himeos\ChromaDB\Generated\Requests\UpdateEmbeddingRequest;
+use Himeos\ChromaDB\Generated\Responses\GetItemsResponse;
+use Himeos\ChromaDB\Generated\Responses\QueryItemsResponse;
 
 class CollectionResource
 {

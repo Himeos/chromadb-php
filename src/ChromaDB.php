@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Codewithkyrian\ChromaDB;
+namespace Himeos\ChromaDB;
 
 
 class ChromaDB

@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Codewithkyrian\ChromaDB;
+namespace Himeos\ChromaDB;
 
-use Codewithkyrian\ChromaDB\Embeddings\EmbeddingFunction;
-use Codewithkyrian\ChromaDB\Generated\ChromaApiClient;
-use Codewithkyrian\ChromaDB\Generated\Exceptions\ChromaNotFoundException;
-use Codewithkyrian\ChromaDB\Generated\Models\Collection;
-use Codewithkyrian\ChromaDB\Resources\CollectionResource;
+use Himeos\ChromaDB\Embeddings\EmbeddingFunction;
+use Himeos\ChromaDB\Generated\ChromaApiClient;
+use Himeos\ChromaDB\Generated\Exceptions\ChromaNotFoundException;
+use Himeos\ChromaDB\Generated\Models\Collection;
+use Himeos\ChromaDB\Resources\CollectionResource;
 
 class Client
 {
